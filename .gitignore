@@ -1,0 +1,25 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache/*
+.conda/*
+.config/*
+.gitconfig
+.gnupg/*
+.ipython/*
+.jupyter/*
+.local/*
+.mozilla/*
+.profile
+.python_history
+.ssh/*
+.sudo_as_admin_successful*
+.thunderbird/*
+Downloads/*
+airflow/*
+anaconda3/*
+snap/*
+.viminfo
+projeto Enade/enade2019/*
+.pki/*
+.vscode/
