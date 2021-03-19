@@ -17,7 +17,7 @@ services:
 
     webserver:
         image: puckel/docker-airflow:1.10.9
-        restart: always
+        # restart: always
         depends_on:
             - postgres
             - redis
@@ -44,7 +44,7 @@ services:
 
     flower:
         image: puckel/docker-airflow:1.10.9
-        restart: always
+        # restart: always
         depends_on:
             - redis
         environment:
@@ -56,7 +56,7 @@ services:
 
     scheduler:
         image: puckel/docker-airflow:1.10.9
-        restart: always
+        # restart: always
         depends_on:
             - webserver
         volumes:
@@ -75,7 +75,7 @@ services:
 
     worker:
         image: puckel/docker-airflow:1.10.9
-        restart: always
+        # restart: always
         depends_on:
             - scheduler
         volumes:
